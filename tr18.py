@@ -65,6 +65,7 @@ if st.button("Predict"):
         text_vectorized = vectorizer.transform([user_input])
         prediction = model.predict(text_vectorized)[0]
         st.header("Prediction:")
+        st.subheader("The sentiment of the given text is: Negative")
         if prediction == -1:
             st.subheader("The sentiment of the given text is: Negative")
         elif prediction == 0:
