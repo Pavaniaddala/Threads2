@@ -46,7 +46,7 @@ def lemmatizer(text):
     return ' '.join(sent)
 
 st.title("Comprehensive Guide on NLP")
-st.markdown("By Dangeti Sravya")
+st.markdown("By Addala Pavani")
 image = Image.open("sentiment-analysis.jpeg")
 st.image(image, use_column_width=True)
 
